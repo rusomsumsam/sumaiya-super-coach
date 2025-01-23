@@ -1,0 +1,24 @@
+{
+    "leavingCities": [
+        "Dhaka",
+        "Gazipur",
+        "Narayanganj",
+        "Mymansing",
+        "Rajshahi",
+        "Pabna",
+        "Kushtia",
+        "Natore",
+        "Chittagong"
+    ],
+    "departingCities": [
+        "Sylhet",
+        "Rangamati",
+        "Khagrachari",
+        "Bandarban",
+        "Vhola",
+        "Sunamganj",
+        "Norayel",
+        "Mirpur",
+        "Nobabgang"
+    ]
+}
