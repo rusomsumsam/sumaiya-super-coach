@@ -1,0 +1,1883 @@
+{
+    "Dhaka": {
+        "Sylhet": {
+            "fare": 1500,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS101",
+                    "time": "06:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS102",
+                    "time": "12:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS103",
+                    "time": "06:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Rangamati": {
+            "fare": 1600,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS201",
+                    "time": "07:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS202",
+                    "time": "01:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS203",
+                    "time": "07:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Khagrachari": {
+            "fare": 1800,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS301",
+                    "time": "05:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS302",
+                    "time": "11:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS303",
+                    "time": "05:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Bandarban": {
+            "fare": 1700,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS401",
+                    "time": "06:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS402",
+                    "time": "12:30 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS403",
+                    "time": "06:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Vhola": {
+            "fare": 1200,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS501",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS502",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS503",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Sunamganj": {
+            "fare": 800,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS601",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS602",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS603",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Norayel": {
+            "fare": 900,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS701",
+                    "time": "05:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS702",
+                    "time": "11:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS703",
+                    "time": "05:30 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Mirpur": {
+            "fare": 800,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS801",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS802",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS803",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Nobabgang": {
+            "fare": 750,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS901",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS902",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS903",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        }
+    },
+    "Gazipur": {
+        "Sylhet": {
+            "fare": 1200,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS101",
+                    "time": "06:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS102",
+                    "time": "12:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS103",
+                    "time": "06:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Rangamati": {
+            "fare": 1400,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS201",
+                    "time": "07:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS202",
+                    "time": "01:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS203",
+                    "time": "07:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Khagrachari": {
+            "fare": 1200,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS301",
+                    "time": "05:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS302",
+                    "time": "11:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS303",
+                    "time": "05:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Bandarban": {
+            "fare": 1200,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS401",
+                    "time": "06:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS402",
+                    "time": "12:30 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS403",
+                    "time": "06:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Vhola": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS501",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS502",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS503",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Sunamganj": {
+            "fare": 550,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS601",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS602",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS603",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Norayel": {
+            "fare": 800,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS701",
+                    "time": "05:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS702",
+                    "time": "11:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS703",
+                    "time": "05:30 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Mirpur": {
+            "fare": 600,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS801",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS802",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS803",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Nobabgang": {
+            "fare": 680,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS901",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS902",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS903",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        }
+    },
+    "Narayanganj": {
+        "Sylhet": {
+            "fare": 1200,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS101",
+                    "time": "06:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS102",
+                    "time": "12:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS103",
+                    "time": "06:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Rangamati": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS201",
+                    "time": "07:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS202",
+                    "time": "01:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS203",
+                    "time": "07:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Khagrachari": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS301",
+                    "time": "05:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS302",
+                    "time": "11:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS303",
+                    "time": "05:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Bandarban": {
+            "fare": 1200,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS401",
+                    "time": "06:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS402",
+                    "time": "12:30 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS403",
+                    "time": "06:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Vhola": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS501",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS502",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS503",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Sunamganj": {
+            "fare": 550,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS601",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS602",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS603",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Norayel": {
+            "fare": 800,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS701",
+                    "time": "05:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS702",
+                    "time": "11:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS703",
+                    "time": "05:30 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Mirpur": {
+            "fare": 600,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS801",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS802",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS803",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Nobabgang": {
+            "fare": 680,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS901",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS902",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS903",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        }
+    },
+    "Mymansing": {
+        "Sylhet": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS101",
+                    "time": "06:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS102",
+                    "time": "12:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS103",
+                    "time": "06:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Rangamati": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS201",
+                    "time": "07:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS202",
+                    "time": "01:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS203",
+                    "time": "07:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Khagrachari": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS301",
+                    "time": "05:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS302",
+                    "time": "11:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS303",
+                    "time": "05:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Bandarban": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS401",
+                    "time": "06:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS402",
+                    "time": "12:30 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS403",
+                    "time": "06:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Vhola": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS501",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS502",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS503",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Sunamganj": {
+            "fare": 550,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS601",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS602",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS603",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Norayel": {
+            "fare": 800,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS701",
+                    "time": "05:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS702",
+                    "time": "11:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS703",
+                    "time": "05:30 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Mirpur": {
+            "fare": 600,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS801",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS802",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS803",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Nobabgang": {
+            "fare": 680,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS901",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS902",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS903",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        }
+    },
+    "Rajshahi": {
+        "Sylhet": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS101",
+                    "time": "06:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS102",
+                    "time": "12:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS103",
+                    "time": "06:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Rangamati": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS201",
+                    "time": "07:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS202",
+                    "time": "01:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS203",
+                    "time": "07:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Khagrachari": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS301",
+                    "time": "05:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS302",
+                    "time": "11:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS303",
+                    "time": "05:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Bandarban": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS401",
+                    "time": "06:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS402",
+                    "time": "12:30 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS403",
+                    "time": "06:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Vhola": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS501",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS502",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS503",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Sunamganj": {
+            "fare": 550,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS601",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS602",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS603",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Norayel": {
+            "fare": 800,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS701",
+                    "time": "05:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS702",
+                    "time": "11:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS703",
+                    "time": "05:30 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Mirpur": {
+            "fare": 600,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS801",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS802",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS803",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Nobabgang": {
+            "fare": 680,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS901",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS902",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS903",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        }
+    },
+    "Pabna": {
+        "Sylhet": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS101",
+                    "time": "06:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS102",
+                    "time": "12:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS103",
+                    "time": "06:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Rangamati": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS201",
+                    "time": "07:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS202",
+                    "time": "01:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS203",
+                    "time": "07:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Khagrachari": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS301",
+                    "time": "05:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS302",
+                    "time": "11:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS303",
+                    "time": "05:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Bandarban": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS401",
+                    "time": "06:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS402",
+                    "time": "12:30 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS403",
+                    "time": "06:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Vhola": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS501",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS502",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS503",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Sunamganj": {
+            "fare": 550,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS601",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS602",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS603",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Norayel": {
+            "fare": 800,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS701",
+                    "time": "05:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS702",
+                    "time": "11:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS703",
+                    "time": "05:30 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Mirpur": {
+            "fare": 600,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS801",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS802",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS803",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Nobabgang": {
+            "fare": 680,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS901",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS902",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS903",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        }
+    },
+    "Kushtia": {
+        "Sylhet": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS101",
+                    "time": "06:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS102",
+                    "time": "12:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS103",
+                    "time": "06:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Rangamati": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS201",
+                    "time": "07:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS202",
+                    "time": "01:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS203",
+                    "time": "07:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Khagrachari": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS301",
+                    "time": "05:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS302",
+                    "time": "11:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS303",
+                    "time": "05:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Bandarban": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS401",
+                    "time": "06:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS402",
+                    "time": "12:30 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS403",
+                    "time": "06:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Vhola": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS501",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS502",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS503",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Sunamganj": {
+            "fare": 550,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS601",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS602",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS603",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Norayel": {
+            "fare": 800,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS701",
+                    "time": "05:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS702",
+                    "time": "11:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS703",
+                    "time": "05:30 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Mirpur": {
+            "fare": 600,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS801",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS802",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS803",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Nobabgang": {
+            "fare": 680,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS901",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS902",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS903",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        }
+    },
+    "Natore": {
+        "Sylhet": {
+            "fare": 8000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS101",
+                    "time": "06:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS102",
+                    "time": "12:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS103",
+                    "time": "06:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Rangamati": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS201",
+                    "time": "07:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS202",
+                    "time": "01:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS203",
+                    "time": "07:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Khagrachari": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS301",
+                    "time": "05:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS302",
+                    "time": "11:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS303",
+                    "time": "05:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Bandarban": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS401",
+                    "time": "06:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS402",
+                    "time": "12:30 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS403",
+                    "time": "06:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Vhola": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS501",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS502",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS503",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Sunamganj": {
+            "fare": 550,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS601",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS602",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS603",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Norayel": {
+            "fare": 800,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS701",
+                    "time": "05:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS702",
+                    "time": "11:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS703",
+                    "time": "05:30 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Mirpur": {
+            "fare": 600,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS801",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS802",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS803",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Nobabgang": {
+            "fare": 680,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS901",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS902",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS903",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        }
+    },
+    "Chittagong": {
+        "Sylhet": {
+            "fare": 8000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS101",
+                    "time": "06:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS102",
+                    "time": "12:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS103",
+                    "time": "06:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Rangamati": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS201",
+                    "time": "07:00 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS202",
+                    "time": "01:00 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS203",
+                    "time": "07:00 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Khagrachari": {
+            "fare": 1000,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS301",
+                    "time": "05:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS302",
+                    "time": "11:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS303",
+                    "time": "05:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Bandarban": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS401",
+                    "time": "06:30 AM",
+                    "class": "Business"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS402",
+                    "time": "12:30 PM",
+                    "class": "Business"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS403",
+                    "time": "06:30 PM",
+                    "class": "Business"
+                }
+            ]
+        },
+        "Vhola": {
+            "fare": 1100,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS501",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS502",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS503",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Sunamganj": {
+            "fare": 550,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS601",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS602",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS603",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Norayel": {
+            "fare": 800,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS701",
+                    "time": "05:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS702",
+                    "time": "11:30 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS703",
+                    "time": "05:30 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Mirpur": {
+            "fare": 600,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS801",
+                    "time": "06:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS802",
+                    "time": "12:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS803",
+                    "time": "06:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        },
+        "Nobabgang": {
+            "fare": 680,
+            "buses": [
+                {
+                    "index": 0,
+                    "busId": "BUS901",
+                    "time": "07:00 AM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 1,
+                    "busId": "BUS902",
+                    "time": "01:00 PM",
+                    "class": "Normal"
+                },
+                {
+                    "index": 2,
+                    "busId": "BUS903",
+                    "time": "07:00 PM",
+                    "class": "Normal"
+                }
+            ]
+        }
+    }
+}
