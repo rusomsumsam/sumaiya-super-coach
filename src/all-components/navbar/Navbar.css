@@ -28,3 +28,11 @@
         height:  60px !important;
     }
 }
+@media only screen and (max-width:767px) {
+    .main_cust {
+        width: 94% !important;
+    }
+    .mar_cust {
+        width: 94% !important;
+    }
+}
