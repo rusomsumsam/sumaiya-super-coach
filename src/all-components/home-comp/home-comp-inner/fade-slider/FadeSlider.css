@@ -26,13 +26,16 @@
     .first_slide,
     .second_slide,
     .third_slide {
-        height: 400px;
+        height: 550px;
+    }
+    .slide_main {
+        width: 94%;
     }
 }
 @media (max-width: 480px) {
     .first_slide,
     .second_slide,
     .third_slide {
-        height: 300px;
+        height: 450px;
     }
 }
