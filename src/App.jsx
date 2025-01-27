@@ -7,6 +7,7 @@ import TopMarquee from './all-components/top-marquee-comp/TopMarquee'
 
 
 
+
 function App() {
   
   return (
@@ -15,7 +16,6 @@ function App() {
         <TopMarquee></TopMarquee>
         <Navbar></Navbar>
         <Outlet></Outlet>
-        
       </div>
     </>
   )
