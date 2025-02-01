@@ -1,24 +1,26 @@
 {
     "leavingCities": [
-        "Dhaka",
-        "Gazipur",
-        "Narayanganj",
-        "Mymansing",
-        "Rajshahi",
-        "Pabna",
-        "Kushtia",
-        "Natore",
-        "Chittagong"
+        { "value": "Select Leaving City", "label": "Select Leaving City" },
+        { "value": "Dhaka", "label": "Dhaka" },
+        { "value": "Gazipur", "label": "Gazipur" },
+        { "value": "Narayanganj", "label": "Narayanganj" },
+        { "value": "Mymensingh", "label": "Mymensingh" },
+        { "value": "Rajshahi", "label": "Rajshahi" },
+        { "value": "Pabna", "label": "Pabna" },
+        { "value": "Kushtia", "label": "Kushtia" },
+        { "value": "Natore", "label": "Natore" },
+        { "value": "Chittagong", "label": "Chittagong" }
     ],
     "departingCities": [
-        "Sylhet",
-        "Rangamati",
-        "Khagrachari",
-        "Bandarban",
-        "Vhola",
-        "Sunamganj",
-        "Norayel",
-        "Mirpur",
-        "Nobabgang"
+        { "value": "Select Destination City", "label": "Select Destination City" },
+        { "value": "Sylhet", "label": "Sylhet" },
+        { "value": "Rangamati", "label": "Rangamati" },
+        { "value": "Khagrachari", "label": "Khagrachari" },
+        { "value": "Bandarban", "label": "Bandarban" },
+        { "value": "Bhola", "label": "Bhola" },
+        { "value": "Sunamganj", "label": "Sunamganj" },
+        { "value": "Narayanganj", "label": "Narayanganj" },
+        { "value": "Mirpur", "label": "Mirpur" },
+        { "value": "Nawabganj", "label": "Nawabganj" }
     ]
 }

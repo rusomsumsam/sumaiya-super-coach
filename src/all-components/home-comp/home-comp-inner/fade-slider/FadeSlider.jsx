@@ -1,29 +1,54 @@
+import PropTypes from "prop-types";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import '../fade-slider/FadeSlider.css';
+import "../fade-slider/FadeSlider.css";
+import Flatpickr from "react-flatpickr";
+import "flatpickr/dist/flatpickr.min.css";
 import { useState } from "react";
-import { useEffect } from "react";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
+import { useNavigate } from "react-router-dom";
 
-const FadeSlider = () => {
-    const [city, setCity] = useState(null);
-    const [leavingCity, setLeavingCity] = useState('');
-    const [departureCity, setDepartureCity] = useState('');
-    const [selectedDate, setSelectedDate] = useState(new Date());
+const FadeSlider = ({ cityData }) => {
+    const navigate = useNavigate();
 
-    // Min and max dates
-    const minDate = new Date(); // আজকের তারিখ
-    const maxDate = new Date();
-    maxDate.setDate(maxDate.getDate() + 10); // আজ থেকে ১০ দিন পর পর্যন্ত
+    const { leavingCities, departingCities } = cityData;
+    const [dates, setDates] = useState("Select Date");
+    const [leavingCity, setLeavingCity] = useState("Select Leaving City");
+    const [departingCity, setDepartingCity] = useState("Select Destination City");
+    const [errors, setErrors] = useState({ leavingCityError: false, departingCityError: false, dateError: false})
 
-    useEffect(() => {
-        fetch("/cityList.json") // public ফোল্ডারের মধ্যে cityList.json ফাইল
-            .then(response => response.json())
-            .then(data => setCity(data))
-            .catch(error => console.error("Error fetching city data:", error));
-    }, []);
+    const leavingCityHandler = (e) => {
+        const getLeavingCity = e.target.value;
+        setLeavingCity(getLeavingCity);
+        setErrors(prev => ({ ...prev, leavingCityError: getLeavingCity === "Select Leaving City" }));
+    }
+    const departingCityHandler = (e) => {
+        const getDepartingCity = e.target.value;
+        setDepartingCity(getDepartingCity);
+        setErrors(prev => ({ ...prev, departingCityError: getDepartingCity === "Select Destination City" }));
+    }
+    const datesHandler = (selectedDates) => {
+        if (selectedDates.length > 0) {
+            const getDate = selectedDates[0]; // প্রথম তারিখ নেওয়া
+            setDates(getDate);
+            setErrors(prev => ({ ...prev, dateError: false }));
+        } else {
+            setDates("Select Date");
+            setErrors(prev => ({ ...prev, dateError: true }));
+        }
+    };
+
+    const formHandler = (e) => {
+        e.preventDefault();
+        setErrors(prev => ({ ...prev, leavingCityError: leavingCity === "Select Leaving City" }));
+        setErrors(prev => ({ ...prev, departingCityError: departingCity === "Select Destination City" }));
+        setErrors(prev => ({ ...prev, dateError: dates === "Select Date" }));
+        if (leavingCity !== "Select Leaving City" && departingCity !== "Select Destination City" && dates !== "Select Date") {
+            navigate('/bus-list');
+        }
+    }
+
+
 
     const settings = {
         dots: false,
@@ -38,60 +63,65 @@ const FadeSlider = () => {
         autoplaySpeed: 2000,
     };
 
-    if (!city) {
-        return <div>Loading...</div>;
-    }
-    const { departingCities, leavingCities } = city;
-
-    const slideContent = (
-        <div className="h-full flex justify-center items-center slider_item">
-            <div className="w-[950px] h-[90px] bg-[rgba(43,122,202,0.6)] text-black flex flex-row justify-center items-center gap-4 rounded-2xl slider_item_inner">
-                <div className="flex flex-col w-[250px] h-[50px] bg-white rounded-2xl text-[#0b0a2d] font-[600] leaving_city">
-                    <label htmlFor="leavingCity" className="px-2 text-sm text-[#237917]">Leaving From</label>
-                    <select
-                        id="leavingCity"
-                        value={leavingCity}
-                        onChange={(e) => setLeavingCity(e.target.value)}
-                        className="w-full h-full bg-transparent px-2 border-0"
-                    >
-                        <option value="">Select City</option>
+    const sliderContent = (
+        <div className="w-full h-full flex flex-row justify-center items-center">
+            <form onSubmit={formHandler} className="w-[800px] h-[190px] flex flex-col justify-center items-center gap-4 form_cus">
+                <div className="w-full h-[130px] bg-[rgba(7,6,48,0.9)] flex flex-row justify-center items-center rounded-2xl gap-4 form_cus_inner">
+                    <div className="w-[240px] h-[60px] flex flex-col bg-white rounded-2xl px-4 item_cus">
+                        <label className="text-[#137701] pl-[20px] text-[20px] font-[600]">Leaving From</label>
+                        <select
+                            value={leavingCity}
+                            onChange={leavingCityHandler}
+                            className={`text-[#070630] border-0 pl-[20px] text-[18px] font-[500] ${errors.leavingCityError ? "border-2 border-red-700 rounded-2xl" : "border-0"}`}
+                        >
+                            {
+                                leavingCities.map((cities, indx) => (
+                                    <option key={indx} value={cities.value}>{cities.label}</option>
+                                ))
+                            }
+                        </select>
                         {
-                            leavingCities.map((city, indx) => (
-                                <option key={indx} value={city}>{city}</option>
-                            ))
+                            errors.leavingCityError ? <p className="text-red-700 pl-[20px] font-[600]">Select One!</p> : <p></p>
                         }
-                    </select>
-                </div>
-                <div className="flex flex-col w-[250px] h-[50px] bg-white rounded-2xl text-[#0b0a2d] font-[600] departure_city">
-                    <label htmlFor="departureCity" className="px-2 text-sm text-[#237917]">Departure To</label>
-                    <select
-                        id="departureCity"
-                        value={departureCity}
-                        onChange={(e) => setDepartureCity(e.target.value)}
-                        className="w-full h-full bg-transparent px-2 border-0"
-                    >
-                        <option value="">Select City</option>
+                    </div>
+                    <div className="w-[240px] h-[60px] flex flex-col bg-white rounded-2xl px-4 item_cus">
+                        <label className="text-[#137701] pl-[20px] text-[20px] font-[600]">Departing To</label>
+                        <select
+                            value={departingCity}
+                            onChange={departingCityHandler}
+                            className={`text-[#070630] border-0 pl-[20px] text-[18px] font-[500] ${errors.departingCityError ? "border-2 border-red-700 rounded-2xl" : "border-0"}`}
+                        >
+                            {
+                                departingCities.map((cities, indx) => (
+                                    <option key={indx} value={cities.value}>{cities.label}</option>
+                                ))
+                            }
+                        </select>
                         {
-                            departingCities.map((city, indx) => (
-                                <option key={indx} value={city}>{city}</option>
-                            ))
+                            errors.departingCityError ? <p className="text-red-700 pl-[20px] font-[600]">Select One!</p> : <p></p>
                         }
-                    </select>
+                    </div>
+                    {/* Flatpickr Date Picker */}
+                    <div className="w-[240px] h-[60px] flex flex-col bg-white rounded-2xl px-4 item_cus">
+                        <label className="text-[#137701] pl-[20px] text-[20px] font-[600]">Select Date</label>
+                        <Flatpickr
+                            value={dates}
+                            onChange={datesHandler}
+                            options={{
+                                dateFormat: "d/m/Y",
+                                minDate: "today",
+                                maxDate: new Date().fp_incr(10), // 10 দিন পর পর্যন্ত
+                            }}
+                            placeholder="Select Date"
+                            className={`text-[#070630] border-0 pl-[20px] text-[18px] font-[500] focus:outline-none ${errors.dateError ? "border-2 border-red-700 rounded-2xl" : "border-0"}`}
+                        />
+                        {
+                            errors.dateError ? <p className="text-red-700 pl-[20px] font-[600]">Select One!</p> : <p></p>
+                        }
+                    </div>
                 </div>
-                <div className="flex flex-col w-[250px] h-[50px] bg-white px-2 rounded-2xl date_pickr">
-                    <label htmlFor="datePicker" className="px-2 text-sm text-[#237917]">Select Date</label>
-                    <DatePicker
-                        id="datePicker"
-                        className="w-full h-full px-2 border-0 text-[#0b0a2d] font-[600] outline-0"
-                        selected={selectedDate}
-                        onChange={(date) => setSelectedDate(date)}
-                        dateFormat="yyyy/MM/dd"
-                        minDate={minDate}
-                        maxDate={maxDate} // ১০ দিনের সীমা
-                    />
-                </div>
-                <button className="w-[120px] h-[50px] px-2 rounded-2xl bg-[#0b0a2d] text-white font-bold src_btn">Search Now</button>
-            </div>
+                <button className="w-[200px] bg-[#137701] py-4 rounded-2xl text-[18px] font-[700]">Search Bus</button>
+            </form>
         </div>
     );
 
@@ -99,13 +129,32 @@ const FadeSlider = () => {
         <div>
             <div className="w-[80%] mx-auto slide_main">
                 <Slider {...settings}>
-                    <div className="first_slide">{slideContent}</div>
-                    <div className="second_slide">{slideContent}</div>
-                    <div className="third_slide">{slideContent}</div>
+                    <div className="first_slide">{ sliderContent }</div>
+                    <div className="second_slide">{ sliderContent }</div>
+                    <div className="third_slide">{ sliderContent }</div>
                 </Slider>
             </div>
         </div>
     );
 };
+
+// ✅ Prop validation
+FadeSlider.propTypes = {
+    cityData: PropTypes.shape({
+        leavingCities: PropTypes.arrayOf(
+            PropTypes.shape({
+                value: PropTypes.string.isRequired,
+                label: PropTypes.string.isRequired,
+            })
+        ).isRequired,
+        departingCities: PropTypes.arrayOf(
+            PropTypes.shape({
+                value: PropTypes.string.isRequired,
+                label: PropTypes.string.isRequired,
+            })
+        ).isRequired,
+    }).isRequired,
+};
+
 
 export default FadeSlider;

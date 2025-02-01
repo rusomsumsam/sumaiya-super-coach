@@ -9,6 +9,7 @@ import About from './all-components/about/About.jsx'
 import Service from './all-components/service-comp/Service.jsx'
 import CancelTicket from './all-components/ticket-cancel/CancelTicket.jsx'
 import Album from './all-components/album/Album.jsx'
+import BusList from './all-components/home-comp/home-comp-inner/bus-list/BusList.jsx'
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,12 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
+        loader: () => fetch('/cityList.json'),
         element: <Home></Home>
+      },
+      {
+        path: '/bus-list',
+        element: <BusList></BusList>
       },
       {
         path: '/about',
