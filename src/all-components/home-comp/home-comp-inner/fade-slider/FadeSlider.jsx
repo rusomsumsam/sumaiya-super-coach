@@ -111,9 +111,10 @@ const FadeSlider = ({ cityData }) => {
                                 dateFormat: "d/m/Y",
                                 minDate: "today",
                                 maxDate: new Date().fp_incr(10), // 10 দিন পর পর্যন্ত
+                                disableMobile: true
                             }}
                             placeholder="Select Date"
-                            className={`text-[#070630] border-0 pl-[20px] text-[18px] font-[500] focus:outline-none ${errors.dateError ? "border-2 border-red-700 rounded-2xl" : "border-0"}`}
+                            className={`flatpickr-input text-[#070630] border-0 pl-[20px] text-[18px] font-[500] focus:outline-none ${errors.dateError ? "border-2 border-red-700 rounded-2xl" : "border-0"}`}
                         />
                         {
                             errors.dateError ? <p className="text-red-700 pl-[20px] font-[600]">Select One!</p> : <p></p>
